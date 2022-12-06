@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const xxx = () => {
-    return
-    true
-}
+    return;
+    true;
+};
 
 const App = () => {
-    return <h1>1</h1>
-}
+    return <h1>1</h1>;
+};
 
-export default App
+export default App;
