@@ -40,6 +40,9 @@ module.exports = (env, options) => {
                 template: path.join(__dirname, 'public', 'index.html'),
             }),
             new webpack.HotModuleReplacementPlugin(),
+            new webpack.ProvidePlugin({
+                React: 'react',
+            }),
         ],
         devServer: {
             hot: true,
